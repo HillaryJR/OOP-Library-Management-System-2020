@@ -1,0 +1,125 @@
+.headerBack{
+    width:100%;
+    height:270px;
+    background-color: #194757;
+    color: white;
+}
+
+.headerLogo{
+  	width: 70%;
+    height:auto;
+    float:inherit;
+    display: inline-block;
+}
+.headerLogo img{
+    width:30%;
+    height:auto;
+    margin-left:0%;
+    display: inline-block;
+}
+.headerLogo p{
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Comic Sans MS;
+    margin-left: 22%;
+    margin-top: -6.4%;
+    color: white;    
+}
+
+.userImage {
+	margin-left: 86%;
+	margin-top: -3%;
+}
+.userImage img{
+	margin-top: -40%;
+	cursor: pointer;
+}
+
+.buttonSection i{
+    width:10%;
+    height: auto;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;  
+}
+.btn {
+	border-radius: 3px;
+	padding: 10px;
+	color: black;
+	border: none;
+	background-color: white;
+	font-size:90%;
+	cursor: pointer;
+	margin-left: 85.1%;
+	margin-top: 1%;
+}
+.btn:hover{
+    background-color: #b6cad1;
+}
+
+.headerBottom ul {
+    list-style-type: none;
+    margin-top: 4%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #194757;
+}
+.headerBottom li {
+    float: right;
+    width: 12%;
+    height: 7%;
+}
+.headerBottom li a {
+    font-size: 120%;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.headerBottom li a:hover:not(.active) {
+    background-color: #b6cad1;
+}
+.active {
+    background-color: #b6cad1;
+}
+
+.dropdown-category {
+  display: none;
+  position: absolute;
+  background-color: #768282;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-category a {
+  padding: 30px 26px;
+}
+.dropdown-category a:hover {background-color:  #b6cad1;}
+
+.dropdownC:hover .dropdown-category {
+  display: block;
+}
+
+.dropdown-periodicals {
+  display: none;
+  position: absolute;
+  background-color: #768282;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-periodicals a {
+  padding: 30px 26px;
+}
+.dropdown-periodicals a:hover {background-color:  #b6cad1;}
+
+.dropdownP:hover .dropdown-periodicals {
+  display: block;
+}
+
+
+

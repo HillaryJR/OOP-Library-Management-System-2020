@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>OOOPSample</display-name>
+	
+	<!-- A.V.Joachim -->
+         <servlet>
+         	<servlet-name>search</servlet-name>
+         	<servlet-class>com.project2.SearchServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>search</servlet-name>
+         	<url-pattern>/bsearch</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>customerinsert</servlet-name>
+         <servlet-class>com.project2.AddEventServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>customerinsert</servlet-name>
+         	<url-pattern>/insert</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         <servlet-name>displayevent</servlet-name>
+         <servlet-class>com.project2.DisplayEventServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayevent</servlet-name>
+         	<url-pattern>/event</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>updateEvent</servlet-name>
+         <servlet-class>com.project2.UpdateEventServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>updateEvent</servlet-name>
+         	<url-pattern>/update</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayEventPage</servlet-name>
+         <servlet-class>com.project2.EventPageServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayEventPage</servlet-name>
+         	<url-pattern>/display</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>deleteEvent</servlet-name>
+         <servlet-class>com.project2.DeleteEventServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>deleteEvent</servlet-name>
+         	<url-pattern>/delete</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayCategory1</servlet-name>
+         <servlet-class>com.project2.displayCategory1Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayCategory1</servlet-name>
+         	<url-pattern>/category1</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayCategory2</servlet-name>
+         <servlet-class>com.project2.displayCategory2Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayCategory2</servlet-name>
+         	<url-pattern>/category2</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayCategory3</servlet-name>
+         <servlet-class>com.project2.displayCategory3Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayCategory3</servlet-name>
+         	<url-pattern>/category3</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         <servlet-name>displayCategory4</servlet-name>
+         <servlet-class>com.project2.displayCategory4Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayCategory4</servlet-name>
+         	<url-pattern>/category4</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayNews</servlet-name>
+         <servlet-class>com.project2.displayNewspaperServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayNews</servlet-name>
+         	<url-pattern>/newspaper</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayMagazine</servlet-name>
+         <servlet-class>com.project2.displayMagazineServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayMagazine</servlet-name>
+         	<url-pattern>/magazine</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         <servlet-name>displayFAQ</servlet-name>
+         <servlet-class>com.project2.displayFAQServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayFAQ</servlet-name>
+         	<url-pattern>/faq</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         <servlet-name>displayHome</servlet-name>
+         <servlet-class>com.project2.displayHomeServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>displayHome</servlet-name>
+         	<url-pattern>/home</url-pattern>
+         </servlet-mapping>
+         
+         <!-- Legend -->
+    <servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>loginPack.loginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet> 
+		<servlet-name>custInsert</servlet-name>
+		<servlet-class>loginPack.registrationServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>custInsert</servlet-name>
+		<url-pattern>/insertCust</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name>custRet</servlet-name>
+		<servlet-class>loginPack.custRetreiveServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>custRet</servlet-name>
+		<url-pattern>/retreive</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateCustomer</servlet-name>
+		<servlet-class>loginPack.updateCustServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateCustomer</servlet-name>
+		<url-pattern>/updateCust</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updatePhoto</servlet-name>
+		<servlet-class>loginPack.updatePhotoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updatePhoto</servlet-name>
+		<url-pattern>/update2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>confirmEmail</servlet-name>
+		<servlet-class>loginPack.confirmEmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>confirmEmail</servlet-name>
+		<url-pattern>/chkEmail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>passwordChange</servlet-name>
+		<servlet-class>loginPack.newPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>passwordChange</servlet-name>
+		<url-pattern>/pwdChange</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deletePhoto</servlet-name>
+		<servlet-class>loginPack.deletePhotoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deletePhoto</servlet-name>
+		<url-pattern>/deletePic</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>aboutUs</servlet-name>
+		<servlet-class>location.aboutLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>aboutUs</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateCust</servlet-name>
+		<servlet-class>location.updateLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateCust</servlet-name>
+		<url-pattern>/updateCu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>contactUs</servlet-name>
+		<servlet-class>location.contactLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contactUs</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>vmission</servlet-name>
+		<servlet-class>location.vmissionLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vmission</servlet-name>
+		<url-pattern>/vm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>gallery</servlet-name>
+		<servlet-class>location.galleryLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gallery</servlet-name>
+		<url-pattern>/gall</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>uploadImg</servlet-name>
+		<servlet-class>location.uploadPicLocServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uploadImg</servlet-name>
+		<url-pattern>/uploadPic</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>viewPayment</servlet-name>
+		<servlet-class>location.viewPaymentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewPayment</servlet-name>
+		<url-pattern>/viewPay</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>viewUser</servlet-name>
+		<servlet-class>loginPack.viewUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewUser</servlet-name>
+		<url-pattern>/vUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteUser</servlet-name>
+		<servlet-class>loginPack.deleteCustServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteUser</servlet-name>
+		<url-pattern>/deleteCust</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Vithyashagar -->
+	
+	<servlet> 
+		<servlet-name>PaymentDeltailsInsert</servlet-name>
+		<servlet-class>Payment.PaymentControllerServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PaymentDeltailsInsert</servlet-name>
+		<url-pattern>/insertpay</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name>PaymentDetailsUpdate</servlet-name>
+		<servlet-class>Payment.PaymentDetailsUpdateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PaymentDetailsUpdate</servlet-name>
+		<url-pattern>/retreivePaymentDetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name>cartDeltailsInsert</servlet-name>
+		<servlet-class>Cart.cartInsertServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cartDeltailsInsert</servlet-name>
+		<url-pattern>/insertcartItems</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name>cartDeltailsCreate</servlet-name>
+		<servlet-class>Cart.cartcreationServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cartDeltailsCreate</servlet-name>
+		<url-pattern>/cartCreation</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet> 
+		<servlet-name>cartDeltailsRetrieve</servlet-name>
+		<servlet-class>Cart.CartRetrieveServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cartDeltailsRetrieve</servlet-name>
+		<url-pattern>/cartretrive</url-pattern>
+	</servlet-mapping>  
+
+	<servlet> 
+		<servlet-name>PaymentUpdateEdited</servlet-name>
+		<servlet-class>Payment.PaymentUpdateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PaymentUpdateEdited</servlet-name>
+		<url-pattern>/updatepayment</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Hillary  -->
+
+	
+	
+</web-app>

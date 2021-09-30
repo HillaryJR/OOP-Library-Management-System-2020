@@ -1,0 +1,110 @@
+body{
+	background-color:grey;
+}
+
+
+.bigcontainer{
+	overflow : hidden;
+	width: 90%;
+	background-color: #fa6102 ; 
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	border-color : black ;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+.fixedcontainer{
+	
+	width: 65%;
+	margin-left: 20%;
+	background-color: black; 
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	border-color :#fa6102  ;
+	color : white;
+	
+	
+	
+}
+
+#confirm{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color : black;
+	color : white;
+}
+
+#newAdDiv{
+    margin-top: 2%;
+    display: none;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color : black;
+	color : white;
+}
+
+#pay{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color : black;
+	color : white;
+}
+
+#cash{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color : black;
+	color : white;
+	
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 36px;
+   
+}
+
+#btn{
+  background-color: #fa6102 ;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.placebtn {
+  background-color: #fa6102;
+  color: white;
+  padding: 13px; 
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  width : 50%;
+}
+
+#confirmpay{
+	
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background-color : black;
+	color : white;
+	display : none;
+	
+}

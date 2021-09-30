@@ -1,0 +1,194 @@
+@charset "ISO-8859-1";
+
+body {
+	
+	background-image: url("../images/bookproject9.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.special-card{
+  	background-color: rgba(14, 11, 110, .5); 
+  
+}
+
+ 			 .tableRowww
+                                {
+                                	margin-top: 30px;
+                                }
+                                
+                              
+                                	  .btn-outline-danger
+                                {
+                                	color:#08f7fe;
+                                	background-color:transparent;
+                                	background-image:none;
+                                	border-color:#08f7fe;
+                                }
+                                
+                                .btn-outline-danger:hover
+                                	{
+                                		color:#222;
+                                		background-color:#08f7fe;
+                                		border-color:#08f7fe
+                                	}
+                                	
+                                .btn-outline-warning
+                                {
+                                	color:#08f7fe;
+                                	background-color:transparent;
+                                	background-image:none;
+                                	border-color:#08f7fe;
+                                }
+                                
+                                .btn-outline-warning:hover
+                                	{
+                                		color:#222;
+                                		background-color:#08f7fe;
+                                		border-color:#08f7fe
+                                	}
+                                
+                             
+                                .tr1:hover {
+          						background-color: #060818;
+        							}
+        							
+
+
+/* ---------------------------------------------------
+    Image upload style start
+----------------------------------------------------- */
+
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before {
+    content: 'Uploaded image result';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+}
+
+
+
+
+/* ---------------------------------------------------
+    Image upload style End
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    Calendar style start
+----------------------------------------------------- */
+
+
+
+ul {list-style-type: none;}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #343a40;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+
+/* ---------------------------------------------------
+    Calendar style end
+----------------------------------------------------- */

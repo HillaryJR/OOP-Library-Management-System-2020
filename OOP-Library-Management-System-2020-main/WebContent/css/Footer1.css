@@ -1,0 +1,186 @@
+footer{
+    position:static;
+    margin-top:auto%;
+    position:static;
+    display:inlineblock;
+     
+}
+
+.pageFooter{
+	margin-top:auto%;
+    width: 100%;
+    height: auto;   
+    display: block;
+    background-color: #194757;
+    position: static;
+}
+
+.underLocate{
+    width:24%;
+    height:
+    float:left;
+    display: inline-block;
+    color:white;
+        
+}
+
+.underLocate h6{
+    text-align: center;
+    margin-left: -45%;
+    font-size: 120%;
+    padding-top: 0;
+}
+.underLocate img{
+    margin-left: 40%;
+    margin-top: -18%;
+    margin-bottom: 12%;
+    width: 10%;
+}
+.underLocate address{
+    padding-left: 18%;
+    margin-top: -5%;
+    font-size: 90%;
+    text-align: justify-all;
+}
+
+.underLocate ul{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-left: 18%;
+}
+
+.underPanel{
+    margin-top: 0;
+    width:24%;
+    height:auto;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.underPanel a{
+	text-decoration: none;
+	color:white;
+}
+
+.underPanel h6{
+    text-align: center;
+    margin-left: -21%;
+    font-size: 120%;
+    
+} 
+
+.underPanel ul {
+    list-style-type: none;
+    padding-left: 25%;
+    
+}
+
+.underPanel ul li {
+    font-size: 100%;
+    font-weight: bold;
+	font-style : Helivetica;
+	
+}
+
+
+.underAbout{
+    height: auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}   
+
+.underAbout h6{
+    text-align: center;
+    margin-left: -49%;
+    font-size: 120%;
+}
+
+.underAbout p{
+    text-align: left;
+    font-size: 110%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%;
+   
+    
+}
+
+.underOH{
+    height:auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+}
+
+/*.fourthQuarter form{
+    width:100%;
+    height: auto
+}*/
+
+.underOH h6{
+    text-align: center;
+    margin-left: -52%;
+    font-size: 120%;
+}
+.underOH p{
+    text-align: left;
+    font-size: 110%;
+    padding-top: 0;
+    margin-top: -9%;
+    margin-left: -25%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%; 
+} 
+
+.underOH img{
+    margin-left: 60%;
+    margin-top: -19%;
+    margin-bottom: 12%;
+    width: 15%;
+}
+
+/*.fourthQuarter input[type=text], select {
+    width: 90%;
+    margin-left: 0%;
+  	margin-top: 0%;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 3px solid #b6cad1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}*/
+
+/*.footerSubmit{
+    margin-left: 30%;
+    margin-top: 6%;
+    border-radius: 10px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:30%;
+    height: 5%;
+	font-size:105%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	border: 3px solid #b6cad1;
+}*/
+
+/*.footerSubmit:hover{
+    background-color: #b6cad1;
+}*/
+
+/*.footerSubmit i{
+    width:20%;
+    height: auto;
+}*/

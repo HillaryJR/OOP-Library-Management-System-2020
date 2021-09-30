@@ -1,0 +1,206 @@
+/* ################################## CART ##############################################*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.emptycart{
+
+}
+
+/* ################################## CART ##############################################*/
+
+.AdminTable{
+	border:hidden;
+	background-color:black;
+	color:white;
+	border-collapse: collapse;
+	width:80%;
+	padding:15px;
+	overflow-x:auto;
+	border-radius: 8px;
+	 border-color: coral;	
+}
+
+.AdminTable tr:hover{
+	background-color: grey;
+	color: black;
+}
+
+.AdminTable th{
+	background-color: #fa6102;
+	color: white;
+	padding:8px;
+}
+
+.AdminTable tr{
+	color: white;
+	text-align:center;
+	
+}
+
+.AdminTable button{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+
+}
+
+.AdminTable input[type=button]{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+	
+}
+
+.AdminTable input[type=button]:hover{
+	background-color: #fa6102;
+}
+
+.AdminTable a {
+	text-decoration:none;
+	color:black;
+}
+
+.AdminTable button:hover{
+	background-color: #fa6102;
+	
+}
+
+.btn-sc {
+    color: white;
+    background-color: #1ba65b;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+.btn-sc:hover {
+	opacity: 0.7;
+	}
+
